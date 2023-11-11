@@ -1,6 +1,6 @@
 #!/bin/sh
 
-SOURCE_DIR=./docs/studymeeting
+SOURCE_DIR=./docs/
 
 find ${SOURCE_DIR} -name '*.html' | xargs \
 sed -i -e "s/home\.html/index\.html/g" \
